@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Sora');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Sora;
+}
+
+body {
+    background-color: #68BBE3;
+
+}
+.topbar {
+    width: 100%;
+    background: #055C9D;
+    color: white;
+    font-family: Sora;
+}
+.content {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.content h3 {
+    padding-top: 150px;
+    font-size: 20px;
+    float: left;
+}
+.content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+.content img {
+    margin-left: 600px;
+    padding-top: 5px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.fotos {
+    width: 100%;
+    background: #0E86D4;
+}
+.fotos .cont {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.fotos h1 {
+    color: #fff;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 600px;
+}
+.cont img {
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+    border-radius: 25px;
+}
+.info {
+    width: 100%;
+    background: #055C9D;
+}
+.info .cont2 {
+    width: 1200px;
+    margin:auto;
+    display: flex;
+    padding-top: 50px;
+}
+.cont2 img {
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+.cont2 h1 {
+    color: #fff;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 100px;
+}
+.cont2 h3 {
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 100px;
+}
+.cont2 p {
+    padding-left: 100px;
+    color: rgb(224, 224, 224);
+    line-height: 25px;
+    padding-top: 30px;
+}
+.cont2 iframe{
+    position: absolute;
+    left: 1050px;
+    top: 1330px;
+}
+.footer-fluid {
+    	width: 100%;
+    background-color: #003060;
+}
+.footer {
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p {
+    color: #fff;
+}
+.footer a {
+    text-decoration: none;
+    color: blueviolet;
+}
